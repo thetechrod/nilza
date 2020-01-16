@@ -5,11 +5,13 @@
 
 }
 
-body {
-    background-image: url("images/test.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+body { 
+    background: url(images/test.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 h1 {
     color: #2b2b28;
@@ -126,3 +128,6 @@ h3 {
 #footer {
     text-align: center;
 }
+
+/* responsive */
+
