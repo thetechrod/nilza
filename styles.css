@@ -5,8 +5,8 @@
 
 }
 
-body { 
-    background: url(images/test.jpg) no-repeat center center fixed; 
+body {
+    background: url(images/test.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -53,13 +53,17 @@ p {
   }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
 }
 
 .nav-item {
     padding: 0 5px;
   }
+
+.navbarra {
+margin: auto;
+}
 
 /* sections */
 
@@ -79,6 +83,9 @@ p {
 
 .white-section {
     background-color: white;
+    max-width: 90%;
+    margin: 2% 5% 2% 5%;
+    padding: 2rem 0 2rem;
 }
 
 .row {
@@ -131,4 +138,11 @@ p {
 
 #footer {
     text-align: center;
+}
+
+/* spotify */
+
+.spotify {
+  text-align: center;
+  padding: 2rem 0 2rem;
 }
