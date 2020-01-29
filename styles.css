@@ -14,32 +14,32 @@ body {
   }
 
 h1 {
-    color: #2b2b28;
+    color: black;
     font-size: 8rem;
     font-weight: bold;
     padding: 2rem;
     margin: auto;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
     text-align: center;
 }
 
 h2 {
-    color: #2b2b28;
+    color: black;
     font-size: 3rem;
     font-weight: bold;
     padding: 2rem;
     margin: auto;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Lobster', cursive;
     text-align: center;
 }
 
 h3 {
-    color: #2b2b28;
+    color: black;
     margin: auto;
     padding: 0 0 2rem 20%;
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: left;
-    font-family: 'Alegreya', serif;
+    font-family: 'Zhi Mang Xing', cursive;
 }
 
 p {
@@ -70,23 +70,24 @@ margin: auto;
 .yellow-section {
     background-color: #e3b04b;
     padding-bottom: 5rem;
-    max-width: 90%;
-    margin: 0 5% 2% 5%;
+    margin: 0 0 2% 0;
 }
 
 .peach-section {
     background-color: #f1d6ab;
-    padding: 8rem 0 5rem;
-    max-width: 90%;
-    margin: 0 5% 2% 5%;
+    margin: 0 0 2% 0;
 }
 
 .white-section {
-    background-color: white;
-    max-width: 90%;
-    margin: 2% 5% 2% 5%;
+    margin: 0 0 2% 0;
     padding: 2rem 0 2rem;
 }
+
+.white-section1 {
+    margin: 0 0 2% 0;
+    padding: 2rem 0 2rem;
+}
+
 
 .row {
     margin: 0;
@@ -109,10 +110,6 @@ margin: auto;
     position: relative;
 }
 
-.quote-img {
-    width: 25%;
-}
-
 .fotitas {
     width: 250px;
     display: block;
@@ -132,6 +129,16 @@ margin: auto;
 #carouselExampleControls {
     padding-top: 5rem;
     padding-bottom: 2rem;
+}
+
+.carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
 }
 
 /* Footer */
